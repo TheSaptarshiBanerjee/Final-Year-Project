@@ -1,0 +1,226 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family:Impact, Chiller, Jokerman, Curlz MT;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url(1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+footer{
+	background: linear-gradient(45deg, #443B96, #b70bf6, #0c7de6);
+	animation: change-gradient 10s ease-in-out infinite;
+	position: relative;
+	background-size: 500% 500%;
+	color: #ffffff;
+	font-family: 'Impact, Chiller, Jokerman, Curlz MT';
+	/* font-size: 35px; */
+	font-weight: normal;
+}
+
+/* Website Title */
+.container{
+    padding: 22px;
+	position: relative;
+	background: linear-gradient(45deg, #443B96, #b70bf6, #0c7de6);
+	background-size: 500% 500%;
+	animation: change-gradient 10s ease-in-out infinite;
+}
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.container-heading{
+    margin: 0;
+}
+
+.heading_font{
+    color: #ffffff;
+	font-family: 'Impact, Chiller, Jokerman, Curlz MT';
+	font-size: 35px;
+	font-weight: normal;
+}
+.container h3
+{
+	color: #ffffff;
+	font-family: 'Impact, Chiller, Jokerman, Curlz MT';
+    /* font-style: italic; */
+    font-size: 14px;
+    margin: -5px 0 0;
+}
+
+.description p{
+	color: #ffffff;
+    font-style: italic;
+    font-size: 14px;
+    margin: -5px 0 0;
+}
+
+/* Text Area */
+.ml-container{
+    margin: 30px 0;
+	flex: 1 0 auto;
+}
+
+.form-input {
+	text-align: center;
+	width: 350px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+/* Predict Button */
+/* .my-cta-button{
+	background: #f9f9f9;
+   	border: 2px solid #000000;
+    border-radius: 1000px;
+    box-shadow: 3px 3px #8c8c8c;
+	margin-top: 10px;
+    padding: 10px 36px;
+    color: #000000;
+    display: inline-block;
+   	font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+}
+
+.my-cta-button:hover{
+    color: #dac937;
+    border: 2px solid #4d089a;
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+} */
+/* Predict Button */
+ .my-cta-button{
+	
+	/* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea); */
+	background: linear-gradient(45deg, #443B96, #b70bf6, #0c7de6);
+	animation: change-gradient 10s ease-in-out infinite;
+   	
+    /* box-shadow: 3px 3px #8c8c8c; */
+	margin-top: 10px;
+    padding: 10px 36px;
+    color: #ffffff;
+    display: inline-block;
+   	font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+	/* overflow: hidden; */
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	position: relative;
+	background-size: 500% 500%;
+	/* transition: all 0.4s; */
+}
+
+
+/* .my-cta-button:hover{ */
+    /* color: #dac937; */
+	/* left: 0%; */
+    /* border: 2px solid #4d089a; */
+/* } */
+
+/* .my-cta-button:active{
+    box-shadow: 0 0;
+}  */
+
+
+.submit-btn .input-data{
+	overflow: hidden;
+	height: 45px!important;
+	width: 25%!important;
+  }
+  .submit-btn .input-data .inner{
+	height: 6%;
+	width: 10%;
+	margin-left: 46%;
+	position: absolute;
+	/* left: -100%; */
+	background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+	transition: all 0.4s;
+  }
+  .submit-btn .input-data:hover .inner{
+	left: 0%;
+  }
+  .submit-btn .input-data input{
+	background: none;
+	border: none;
+	color: #1c1b1b;
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	position: relative;
+	z-index: 2;
+    left: 70%;
+  }
+
+/* Contact */
+.contact-icon{
+	color: #ffffff;
+	padding: 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+/* Footer */
+.footer{
+	flex-shrink: 0;
+	position: relative;
+	padding: 20px;
+	background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);
+	background-size: 500% 500%;
+	animation: change-gradient 10s ease-in-out infinite;
+}
+
+.footer-description{
+	color: #ffffff;
+	margin: 0;
+	font-size: 12px;
+}
+
+/* Result */
+.results{
+    padding: 30px 0 0;
+	flex: 1 0 auto;
+}
+
+.danger{
+    color: #ff0000;
+}
+
+.safe{
+    color: green;
+}
+
+.gif{
+	width: 25%;
+}
+
+.gif1{
+	width: 35%;
+    	margin: 10px 0;
+}

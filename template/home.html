@@ -1,0 +1,307 @@
+<html>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+    
+        .wrapper {
+            width: 2000px;
+            margin: auto;
+        }
+    
+        header {
+            background: linear-gradient(rgba(225, 60, 60, 0.8), rgba(0, 0, 0, 0.8)), url(https://wallpapercave.com/wp/wp5209792.jpg);
+    
+    
+            height: 95vh;
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+    
+    
+        }
+    
+    
+        .x {
+            background-color: rgb(226, 101, 101);
+            color: black;
+            border: 2px solid #b81818;
+        }
+    
+        /* .nav-area {
+            float: right;
+            list-style: none;
+            margin-top: 30px;
+            color: rgb(16, 16, 16);
+            border: 2 px solid;
+            display: block;
+             padding-top: 3%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding: 5px 5px;
+            
+    
+    
+        } */
+    
+        /* .nav-area li {
+            display: inline-block;
+            padding-right: 5 px;
+        }
+    
+        .nav-area li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 10px;
+            font-family: poppins;
+            font-size: 70px;
+            text-transform: uppercase;
+            font-weight: bold;
+    
+    
+        }
+    
+        .nav-area li a:hover {
+            color: #4b4952;
+        } */
+        /* input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+} */
+        /* .nav-area input{
+            color: white;
+            text-decoration: none;
+            padding: 80px 80px;
+            font-family: poppins;
+            font-size: 70px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            background: none;
+        }
+        .nav-area input:hover{
+            color: #4b4952;
+        } */
+        /* .nav-area {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-area form {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 80px 100px;
+  text-decoration: none;
+  size: 2000px;
+  display: 
+}
+
+.nav-area form:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-area form.active {
+  background-color: #04AA6D;
+  color: white;
+} */
+.nav-area {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin-top: 30px;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav-area form {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.nav-area input[type="submit"] {
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 14px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-area input[type="submit"]:hover {
+    background-color: #ddd;
+    color: black;
+}
+        .logo {
+            display: flex;
+            align-items: center;
+            /* Center items vertically */
+            justify-content: flex-start;
+            /* Align items to the start */
+        }
+    
+        .logo img {
+            width: 30%;
+            padding: 2px 15px;
+            align-items: center;
+            justify-content: flex-start;
+            display: flex;
+            margin: 0px;
+            background-color: rgba(193, 37, 37, 0.8);
+    
+    
+    
+        }
+    
+        .welcome-text {
+            position: absolute;
+            width: 200px;
+            height: 300px;
+            margin: 15% 30%;
+            text-align: center;
+            display: block;
+            margin-right: 7%;
+            margin-top: 18%;
+            /* padding-right: 80px; */
+            right: 70%;
+            top: 3%;
+            padding-left: 10px;
+        }
+    
+        .welcome-text h1 {
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-size: 200px;
+            text-shadow: none;
+            display: block;
+            white-space: nowrap;
+    
+        }
+    
+        .welcome-text a {
+            border: 1px solid #fff;
+            padding: 20px 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-top: 20px;
+            display: inline-block;
+            color: #fff;
+            text-align: center;
+        }
+    
+    
+        .vision {
+            background: linear-gradient(rgba(199, 104, 104, 0.8), rgba(0, 0, 0, 0.8)),
+                url(https://etimg.etb2bimg.com/photo/98508793.cms);
+            height: 100vh;
+            /* Adjust the height as needed */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-top: 50px;
+            
+    
+        }
+    
+        .vision h2 {
+            font-size: 70px;
+            font-weight: bold;
+            margin-top: -4%;
+            padding-left: 19%;
+            right: 70%;
+            
+        }
+    
+        /*resposive*/
+    
+        @media (max-width:600px) {
+            .wrapper {
+                width: 100%;
+            }
+    
+    
+    
+    
+    
+        }
+    </style>
+
+
+<header>
+
+    <ul class="nav-area">
+        
+        <!-- <form action="/aboutckd" method="[POST,GET]"> -->
+        <!-- <li><a href="#">Home</a></li> -->
+        <!-- <li><a href="aboutckd.html">about ckd</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="team.html">Team-Members</a></li> --> 
+        <form action="#" method="[POST,GET]">
+            <input  type="submit" value="Home">
+        </form>
+        <form action="/aboutckd" method="[POST,GET]">
+        <input  type="submit" value="aboutckd">
+    </form>
+    <form action="/contact" method="[POST,GET]">
+        <input  type="submit" value="Contact Us">
+    </form>
+    <form action="/team" method="[POST,GET]">
+        <input  type="submit" value="Team-Members">
+    </form>
+        <form action="/Prediction" method="[POST,GET]">
+        <input  type="submit" value="Prediction">
+    </form>
+        <!-- <li><a href="indexnew.html" type="submit" value="Prediction">prediction</a></li> -->
+       
+
+   
+
+
+
+    </ul>
+
+    </div>
+    <div class="logo">
+        <img src="static/8939273.png" alt="Chronic Kidney Disease Prediction">
+    </div>
+    <div class="welcome-text">
+        <h1>CHRONIC KIDNEY DISEASE PREDICTION</h1>
+
+    </div>
+</header>
+<div class="vision">
+    <h2>The vision for a Chronic Kidney Disease (CKD) platform leveraging machine learning (ML) revolves around creating
+        a comprehensive, intelligent, and user-friendly system that enhances early detection, personalized care, and
+        continuous monitoring of CKD</h2>
+</div>
+
+</body>
+
+</html>
